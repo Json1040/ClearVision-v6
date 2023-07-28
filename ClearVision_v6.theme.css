@@ -12,22 +12,23 @@
 
 /* IMPORT CSS */
 @import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url(https://mentalscars.github.io/Patch/transparency.css);
 
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
-  --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --main-color: #6D6D6D; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #000000; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #751783; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #FF0000; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
-  --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
-  --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
-  --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
-  --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
-  --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+  --online-color: #0AFF00; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: #D08923; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: #860000; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --streaming-color: #7E44DF; /* streaming status color (hex, rgb or hsl) [default: #593695] */
+  --offline-color: #161616; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
   /* GENERAL */
   --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
@@ -40,7 +41,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: none; /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
